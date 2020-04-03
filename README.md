@@ -21,19 +21,19 @@ In this notebook, we'll use the [Pomegranate](http://pomegranate.readthedocs.io/
 
 1. Open a terminal and clone the project repository:
 ```
-$ git clone /**/*/*/*/*/*/*/*/*/
+$ git clone https://github.com/immu0001/Part-of-speech-HMM.git
 ```
 
 3. Switch to the project folder and create a conda environment (note: you must already have Anaconda installed):
 ```
-$ cd /**/*/*/*/
-hmm-tagger/ $ conda env create -f hmm-tagger.yaml
+$ cd Part-of-speech-HMM
+Part-of-speech-HMM/ $ conda env create -f hmm-tagger.yaml
 ```
 
 4. Activate the conda environment, then run the jupyter notebook server. (Note: windows users should run `activate hmm-tagger`)
 ```
 / $ source activate hmm-tagger
-(hmm-tagger) /*/*/*/*--/ $ jupyter notebook
+(hmm-tagger) Part-of-speech-HMM/ $ jupyter notebook
 ```
 
 Depending on your system settings, Jupyter will either open a browser window, or the terminal will print a URL with a security token. If the terminal prints a URL, simply copy the URL and paste it into a browser window to load the Jupyter browser. Once you load the Jupyter browser, select the project notebook (HMM tagger.ipynb) and follow the instructions inside to complete the project.
